@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+	<mata name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"></mata>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div id="container">
+	<div id="index" class="page" style="z-index: 6;">
+		<div id="head">
+			<a class="head-content turn-btn" href="javascript:void(0);" onclick="show_index();">
+				<img src="image/新年习俗.png" width="100%">
+			</a>
+		</div>
+		<div id="calendar">
+			<table id="calendar-body">
+				<tr>
+					<th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
+				</tr>
+				<tr>
+					<td><div class="date">15</div><div class="date-note">十八</div></td><!--
+				 --><td><div class="date">16</div><div class="date-note">十九</div></td><!--
+				 --><td><div class="date">17</div><div class="date-note">廿</div></td><!--
+				 --><td><div class="date">18</div><div class="date-note">廿一</div></td><!--
+				 --><td><div class="date">19</div><div class="date-note">廿二</div></td><!--
+				 --><td><div class="date">20</div><div class="date-note">大寒</div></td><!--
+				 --><td><a class="turn-btn" href="javascript:void(0);" onclick="show_24();"><div class="date">21</div><div class="date-note red">廿四</div></a></td>
+				</tr>
+				<tr>
+					<td><div class="date">22</div><div class="date-note">廿五</div></td><!--
+				 --><td><div class="date">23</div><div class="date-note">廿六</div></td><!--
+				 --><td><div class="date">24</div><div class="date-note">廿七</div></td><!--
+				 --><td><div class="date">25</div><div class="date-note">廿八</div></td><!--
+				 --><td><div class="date">26</div><div class="date-note">廿九</div></td><!--
+				 --><td><a class="turn-btn" href="javascript:void(0);" onclick="show_30();"><div class="date">27</div><div class="date-note red">除夕</div></a></td><!--
+				 --><td><a class="turn-btn" href="javascript:void(0);" onclick="show_1();"><div class="date">28</div><div class="date-note red">春节</div></a></td>
+				</tr>
+				<tr>
+					<td><div class="date">29</div><div class="date-note">初二</div></td><!--
+				 --><td><a class="turn-btn" href="javascript:void(0);" onclick="show_3();"><div class="date">30</div><div class="date-note red">初三</div></a></td><!--
+			 	 --><td><div class="date">31</div><div class="date-note">初四</div></td><!--
+			 	 --><td><div class="date">1</div><div class="date-note">初五</div></td><!--
+				 --><td><div class="date">2</div><div class="date-note">初六</div></td><!--
+				 --><td><a class="turn-btn" href="javascript:void(0);" onclick="show_7();"><div class="date">3</div><div class="date-note red">立春</div></a></td><!--
+				 --><td><div class="date">4</div><div class="date-note">初八</div></td>
+				</tr>
+			</table>
+		</div>
+		<div id="today-btn">
+			<a class="turn-btn" href="javascript:show_today();">
+				<div>看看大家现在都在忙什么</div>
+			</a>
+		</div>
+		<div class="footer">
+			<img src="image/房子.png" width="100%" style="position: relative; margin-bottom: -1em; z-index: 1;">
+			<img src="image/底部.png" width="100%">
+		</div>
+	</div>
+	<div id="ftv-24" class="page" style="z-index: 5;">
+		<img src="image/24.png">
+	</div>
+	<div id="ftv-30" class="page" style="z-index: 4;">
+		<img src="image/30.png">
+	</div>
+	<div id="ftv-1" class="page" style="z-index: 3;">
+		<img src="image/1.png">
+	</div>
+	<div id="ftv-3" class="page" style="z-index: 2;">
+		<img src="image/3.png">
+	</div>
+	<div id="ftv-7" class="page" style="z-index: 1;">
+		<img src="image/7.png">
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="turn.js"></script>
+<script type="text/javascript" src="touch.js"></script>
+</html>

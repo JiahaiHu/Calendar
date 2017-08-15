@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #CD8500;
+	font-size: 1.8rem;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+	background-color: #FFF68F;
+}
+
+li {
+	list-style: none;
+	margin: 12% 0;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+#footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+#input-area {
+	padding: 1rem;
+	text-align: left;
+	background-image: url("image/底部.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#typein {
+	border-radius: 0.1em;
+	text-align: left;
+}
+
+#submit-btn {
+	border-radius: 0.5em;
+	font-size: 0.5em;
+	padding: 0.7em;
+	vertical-align: top;
+	background-color: #FFF68F;
+}
